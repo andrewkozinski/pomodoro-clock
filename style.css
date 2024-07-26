@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+#main-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vh;
+  height: 100vh;
+  /*
+  background-color: grey; */
+  font-family: "Open Sans", Helvetica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+body {
+  background-color: #302c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#break-label {
+  
+}
+
+.break-controls, .session-controls, .timer-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  color: white;
+  
+  button {
+    color: white;
+    border: none;
+background: none;
+  }
+  
+  button:active {
+    color: grey;
+  }
+  
+}
+
+#controls {
+  display: flex;
+  gap: 50px;
+}
+
+#session-label, #break-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#timer-label {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 10px;
+  width: 200px;
+}
